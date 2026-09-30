@@ -42,6 +42,7 @@ IBS6503-2026-02/
 | 파일 | 내용 |
 |---|---|
 | `data/airway_scaledcounts.subset.tsv` | 사람 기도 평활근 세포 RNA-seq 카운트. 유전자 38,694개, 샘플 4개 |
+| `data/week4/` | 같은 실험의 read 일부(FASTQ)와 hg19 chr1 참조 서열. 자세한 내용은 `data/week4/README.md` |
 
 출처: Himes BE, et al. *RNA-Seq transcriptome profiling identifies CRISPLD2 as a glucocorticoid responsive gene that modulates cytokine function in airway smooth muscle cells.* PLoS One 9(6):e99625 (2014). PMID 24926665
 
@@ -53,6 +54,7 @@ IBS6503-2026-02/
 
 ## 주차별 실습
 
-| 주차 | 주제 | 노트북 |
+| 주차 | 주제 | 실습 자료 |
 |---|---|---|
 | 3 | 저장소 가져오기와 코드 읽기 | `course/labs/week3/week3_reading.ipynb`, `course/labs/week3/top10.py` |
+| 4 | NGS 데이터 구조: read에서 유전체 브라우저까지 | `data/week4/`. IGV Desktop(igv.org/download) 설치 필요 |

@@ -17,9 +17,14 @@
 
 3. Qoka의 프로젝트 열기에서 clone한 `IBS6503-2026-02` 폴더를 엽니다
 
-새 자료가 올라오면 내 fork 페이지에서 **Sync fork**를 누른 뒤, Qoka 대화 입력창에 입력합니다.
+새 자료가 올라오면 내 fork 페이지에서 **Sync fork** → **Update branch**를 누른 뒤, Qoka 대화 입력창에 입력합니다.
 
 > GitHub에서 최신 상태를 받아와줘.
+
+- `Already up to date.`인데 새 파일이 없으면 Sync fork를 하지 않은 것입니다
+- `Need to specify how to reconcile divergent branches`가 나오면 "pull할 때 merge로 합치도록 설정하고 다시 받아와줘."라고 입력합니다
+- `Your local changes ... would be overwritten`이 나오면 `data/`나 `course/`, README의 원본을 고친 것입니다. 바꾼 것을 버리고 다시 받아옵니다
+- Sync fork 창의 **Discard** 버튼은 누르지 않습니다
 
 ---
 
